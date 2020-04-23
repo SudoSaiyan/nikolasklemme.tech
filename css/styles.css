@@ -1,0 +1,195 @@
+/* TAG SELECTORS */
+a {
+  font-family: 'PT Sans', sans-serif;
+  color: #3f72af;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #112d4e
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  color: #40514E;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Waiting for the Sunrise', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: 'PT Sans', sans-serif;
+  color: #112d4e;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: 'PT Sans', sans-serif;
+  color: #3f72af;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: lightgrey;
+  border-width: 15px;
+  width: 10%
+}
+
+p {
+  line-height: 2;
+}
+
+/* ~~~CLASS SELECTORS~~~ */
+
+/* Top Section Styling */
+.top-container {
+  background-color: #afdef0;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+  width: 10%
+}
+
+.linux {
+  text-decoration: underline;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.mountain{
+  width: 25%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+  width: 10%
+}
+
+/*Middle Section Styling*/
+
+.middle-container {
+  background-color: #E4F9F5;
+}
+
+.profile{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.profile-picture {
+  width: 20%;
+  display: inline-block;
+  border-radius: 100%;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.skill-section, .hobby-section {
+  margin: 50px auto;
+}
+
+.skills, .hobbies {
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  text-align: left;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.about-pics-left {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  display: inline-block;
+}
+
+.about-pics-right {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  display: inline-block;
+}
+
+.contact-me{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto;
+}
+
+.contact-me-button {
+  background: #4097F9;
+  background-image: -webkit-linear-gradient(top, #4097F9, #1E62D0);
+  background-image: -moz-linear-gradient(top, #4097F9, #1E62D0);
+  background-image: -ms-linear-gradient(top, #4097F9, #1E62D0);
+  background-image: -o-linear-gradient(top, #4097F9, #1E62D0);
+  background-image: linear-gradient(to bottom, #4097F9, #1E62D0);
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  color: #FFFFFF;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 8px;
+  box-shadow: 0 1px 20px 0 #000000;
+  -webkit-box-shadow: 0 1px 20px 0 #000000;
+  -moz-box-shadow: 0 1px 20px 0 #000000;
+  text-shadow: 1px 1px 13px #000000;
+  border: solid #337FED 0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.contact-me-button:hover {
+  background: #112d4e;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+/*Bottom section styling*/
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.footer-link{
+    margin: 10px 20px;
+}
+
+.credit{
+  margin-top: 30px;
+}
+
+.copyright {
+  padding: 10px 0;
+  font-size: 0.75rem;
+  color: #eaf6f6
+}
